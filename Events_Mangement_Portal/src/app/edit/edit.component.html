@@ -1,0 +1,60 @@
+<div id="container-fluid">
+    <h2>EDIT EVENTS</h2>
+</div>
+<div class="container bg-light gy-2 p-2">
+    <!--NAME-->
+    <div class="row gy-2 bg-warning">
+        <div class="col-1">
+            <label class="col-form-label">NAME</label>
+        </div>
+        <div class="col-3">
+            <input [(ngModel)]="event.name" class="form-control" type="text">
+        </div>
+    </div>
+    <!--DATE-->
+    <div class="row gy-2 bg-warning">
+        <div class="col-1">
+            <label class="col-form-label">DATE</label>
+        </div>
+        <div class="col-3">
+            <input [(ngModel)]="event.date" class="form-control" type="text">
+        </div>
+    </div>
+    <!--TIME-->
+    <div class="row gy-2 bg-warning">
+        <div class="col-1">
+            <label class="col-form-label">TIME</label>
+        </div>
+        <div class="col-3">
+            <input [(ngModel)]="event.time" class="form-control" type="text">
+        </div>
+    </div>
+    <!--VENUE-->
+    <div class="row gy-2 bg-warning">
+        <div class="col-1">
+            <label class="col-form-label">VENUE</label>
+        </div>
+        <div class="col-3">
+            <input [(ngModel)]="event.venue" class="form-control" type="text">
+        </div>
+    </div>
+    <!--body-->
+    <div class="row gy-2 bg-warning">
+        <div class="col-1">
+            <label class="col-form-label">NAME</label>
+        </div>
+        <div class="col-3">
+            <input [(ngModel)]="event.body" class="form-control" type="text">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1">
+            <label class="col-form-label">DESCRIPTION</label>
+        </div>
+        <div class="col-3">
+            <textarea [(ngModel)]="event.description" class="form-control" rows="3"></textarea>
+        </div>
+    </div>
+    <button class="btn btn-primary" (click)="submit()">SUBMIT</button>
+    <button class="btn btn-danger">DELETE</button>
+</div>

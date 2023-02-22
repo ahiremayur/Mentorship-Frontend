@@ -1,0 +1,31 @@
+{
+    "events":[
+        {
+            "name":"Mood Indigo",
+            "time":"all day",
+            "date":"07-04-2023",
+            "venue":"VMCC",
+            "body":"DevCom",
+            "description":"all about the event",
+            "image":"url"
+        },
+        {
+            "name":"Mood Indigo",
+            "time":"all day",
+            "date":"07-04-2023",
+            "venue":"VMCC",
+            "body":"DevCom",
+            "description":"all about the event",
+            "image":"url"
+        },
+        {
+            "name":"Mood Indigo",
+            "time":"all day",
+            "date":"07-04-2023",
+            "venue":"VMCC",
+            "body":"DevCom",
+            "description":"all about the event",
+            "image":"url"
+        }
+    ]
+}
